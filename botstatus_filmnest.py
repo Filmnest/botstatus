@@ -20,7 +20,7 @@ async def main_teletips():
     async with app:
         while True:
             print("Checking...")
-            xxx_teletips = f"〠 | **𝐑𝐞𝐚𝐥-𝐓𝐢𝐦𝐞 𝐌𝐢𝐠𝐮𝐞𝐥 𝐋𝐞𝐞𝐜𝐡 𝐁𝐨𝐭𝐬 𝐒𝐭𝐚𝐭𝐮𝐬**"
+            xxx_teletips = f"〠 | **[ 𝐑𝐞𝐚𝐥-𝐓𝐢𝐦𝐞 𝐌𝐢𝐠𝐮𝐞𝐥 𝐋𝐞𝐞𝐜𝐡 𝐁𝐨𝐭𝐬 𝐒𝐭𝐚𝐭𝐮𝐬](https://t.me/MiguelLeech)**"
             for bot in BOT_LIST:
                 try:
                     yyy_teletips = await app.send_message(bot, "/start")
